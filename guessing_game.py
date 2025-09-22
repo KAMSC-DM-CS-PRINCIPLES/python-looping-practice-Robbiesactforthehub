@@ -7,6 +7,6 @@ def guessing_game():
             correct=1
             return "Congratulations! You guessed it!"
         elif(Theirguess<answer):
-            return "Too Low! Guess again."
+            print( "Too Low! Guess again.")
         elif(Theirguess>answer):
-            return "Too High! Guess again."
+            print ("Too High! Guess again.")
